@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    z-index: 200;
+    background: white;
+    margin: 0;
+    padding: 0;
+    
+}
+.header_body{
+    display: flex;
+    flex-flow: row;
+    background: black;
+    background: linear-gradient(90deg,rgba(0,0,0,1)70%,rgba(0,0,0,0)100%);
+}
+.Profileimage{
+    height: 120px;
+    width: 120px;
+    z-index: -5;
+}
+.logo_text{
+    height: 120px;
+    flex: 1;
+    padding-left: 40px;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+}
