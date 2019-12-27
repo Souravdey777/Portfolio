@@ -2,8 +2,7 @@ import React from 'react';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 
-const HFLayout = props => {
-    return (
+const HFLayout = props => (
         <div>
             <Header />
             <div>
@@ -12,6 +11,5 @@ const HFLayout = props => {
             <Footer />
         </div>
     );
-}
 
 export default HFLayout;
