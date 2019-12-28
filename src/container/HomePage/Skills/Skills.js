@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Education = () => (
+const Skills = () => (
     <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
         <div style={{color:"rgba(245, 245, 245, 0.8)", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
-            <div style={{ fontSize: "16px", textAlign: "right" }}><b>Education</b></div>
+            <div style={{ fontSize: "16px", textAlign: "right" }}><b>Skills</b></div>
             <hr/>
             <div>
                 vudjdtyfug.kmtdfjhgjhvhc
@@ -12,4 +12,4 @@ const Education = () => (
     </div>
 );
 
-export default Education;
+export default Skills;

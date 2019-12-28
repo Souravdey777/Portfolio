@@ -5,21 +5,22 @@ import Experience from './Experience/Experience';
 import Education from './Education/Education';
 import { SectionsContainer, Section } from 'react-fullpage';
 import Training from './Training/Training';
+import Skills from './Skills/Skills';
 
 class HomePage extends React.Component {
     render() {
         let options = {
             activeClass: 'active',
-            anchors: ['About', 'Experience', 'Education','Trainings'],
+            anchors: ['About', 'Experience', 'Education','Trainings','Skills'],
             arrowNavigation: true,
             className: 'SectionContainer',
-            delay: 1000,
             navigation: false,
             scrollBar: false,
             sectionClassName: 'Section',
             sectionPaddingTop: '0',
             sectionPaddingBottom: '0',
-            verticalAlign: false
+            verticalAlign: false,
+            recordHistory: false,
         };
         return (
             <HFLayout>
@@ -28,6 +29,7 @@ class HomePage extends React.Component {
                     <Section><Experience /></Section>
                     <Section><Education /></Section>
                     <Section><Training/></Section>
+                    <Section><Skills/></Section>
                 </SectionsContainer>
 
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "whitesmoke" }}>
