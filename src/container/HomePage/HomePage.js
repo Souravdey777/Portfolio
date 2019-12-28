@@ -4,8 +4,22 @@ import About from './About/About';
 import Experience from './Experience/Experience';
 import Education from './Education/Education';
 
+
 class HomePage extends React.Component {
     render() {
+        let options = {
+            activeClass:          'active', 
+            anchors:              [],
+            arrowNavigation:      true,
+            className:            'SectionContainer',
+            delay:                1000,
+            navigation:           true,
+            scrollBar:            false,
+            sectionClassName:     'Section',
+            sectionPaddingTop:    '0',
+            sectionPaddingBottom: '0',
+            verticalAlign:        false
+          };
         return (
             <HFLayout>
                 

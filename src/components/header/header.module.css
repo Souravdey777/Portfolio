@@ -25,8 +25,13 @@
     padding-left: 30px;
     display: flex;
     font-size: 12px;
+    flex-flow: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: flex-start;
-    align-items: center;
-    color: rgba(245, 245, 245, 0.8);
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(245, 245, 245, 0.7);
+}
+.logo_text p{
+    margin: 0;
+    padding: 0;
 }

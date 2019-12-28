@@ -5,10 +5,11 @@ function Header() {
     return (
         <header className={Stylist.header}>
             <div className={Stylist.header_body}>
-                <div className={Stylist.logo_text}>SOURAV DEY</div>
-                
-                    <img src={Profileimage} className={Stylist.Profileimage} alt="ProfileImage" />
-                
+                <div className={Stylist.logo_text}>
+                <p>SOURAV DEY</p>
+                <p>Developer & Designer</p>
+                </div>
+                <img src={Profileimage} className={Stylist.Profileimage} alt="ProfileImage" />
             </div>
         </header>
     );
