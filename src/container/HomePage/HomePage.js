@@ -3,58 +3,57 @@ import HFLayout from '../../Layout/WithHeaderFooterLayout/With_H_F_Layout';
 import About from './About/About';
 import Experience from './Experience/Experience';
 import Education from './Education/Education';
-
+import { SectionsContainer, Section } from 'react-fullpage';
+import Training from './Training/Training';
 
 class HomePage extends React.Component {
     render() {
         let options = {
-            activeClass:          'active', 
-            anchors:              [],
-            arrowNavigation:      true,
-            className:            'SectionContainer',
-            delay:                1000,
-            navigation:           true,
-            scrollBar:            false,
-            sectionClassName:     'Section',
-            sectionPaddingTop:    '0',
+            activeClass: 'active',
+            anchors: ['About', 'Experience', 'Education','Trainings'],
+            arrowNavigation: true,
+            className: 'SectionContainer',
+            delay: 1000,
+            navigation: false,
+            scrollBar: false,
+            sectionClassName: 'Section',
+            sectionPaddingTop: '0',
             sectionPaddingBottom: '0',
-            verticalAlign:        false
-          };
+            verticalAlign: false
+        };
         return (
             <HFLayout>
-                
-                <About/>
-                <Experience/>
-                <Education/>
-                <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
-                <div style={{ color:"white", padding:"20px", paddingTop:"140px",textAlign:"left" }}>
-                    <u>Traiings</u>
-                </div>
-                </div>
+                <SectionsContainer {...options}>
+                    <Section><About /></Section>
+                    <Section><Experience /></Section>
+                    <Section><Education /></Section>
+                    <Section><Training/></Section>
+                </SectionsContainer>
+
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "whitesmoke" }}>
-                <div style={{ padding:"20px", paddingTop:"140px",textAlign:"left" }}>
-                    <u>Projects</u>
-                </div>
+                    <div style={{ padding: "20px", paddingTop: "140px", textAlign: "left" }}>
+                        <u>Projects</u>
+                    </div>
                 </div>
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
-                <div style={{ color:"white", padding:"20px", paddingTop:"140px",textAlign:"left" }}>
-                    <u>Skills</u>
-                </div>
+                    <div style={{ color: "white", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
+                        <u>Skills</u>
+                    </div>
                 </div>
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "whitesmoke" }}>
-                <div style={{ padding:"20px", paddingTop:"140px",textAlign:"left" }}>
-                    <u>Certifications & Achievements</u>
-                </div>
+                    <div style={{ padding: "20px", paddingTop: "140px", textAlign: "left" }}>
+                        <u>Certifications & Achievements</u>
+                    </div>
                 </div>
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
-                <div style={{ color:"white", padding:"20px", paddingTop:"140px",textAlign:"left" }}>
-                    <u>Postions of Responsebility</u>
-                </div>
+                    <div style={{ color: "white", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
+                        <u>Postions of Responsebility</u>
+                    </div>
                 </div>
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "whitesmoke" }}>
-                <div style={{ padding:"20px", paddingTop:"140px",textAlign:"left" }}>
-                    <u>Contact me</u>
-                </div>
+                    <div style={{ padding: "20px", paddingTop: "140px", textAlign: "left" }}>
+                        <u>Contact me</u>
+                    </div>
                 </div>
             </HFLayout>
         );
