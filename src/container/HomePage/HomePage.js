@@ -6,12 +6,15 @@ import Education from './Education/Education';
 import { SectionsContainer, Section } from 'react-fullpage';
 import Training from './Training/Training';
 import Skills from './Skills/Skills';
+import Classnames from './HomePage.module.css';
+import CertificationsAchievements from './Certifications_Achievements/Certifications_Achievements';
 
 class HomePage extends React.Component {
     render() {
         let options = {
             activeClass: 'active',
-            anchors: ['About', 'Experience', 'Education','Trainings','Skills'],
+            anchors: ['About Me', 'Experience', 'Education', 'Trainings', 'Projects',
+             'Skills', 'Certifications & Achievements', 'Postions of Responsebility'],
             arrowNavigation: true,
             className: 'SectionContainer',
             navigation: false,
@@ -25,28 +28,64 @@ class HomePage extends React.Component {
         return (
             <HFLayout>
                 <SectionsContainer {...options}>
-                    <Section><About /></Section>
-                    <Section><Experience /></Section>
-                    <Section><Education /></Section>
-                    <Section><Training/></Section>
-                    <Section><Skills/></Section>
+                    <Section color="black">
+                        <div className={Classnames.pageRootBlack}>
+                            <div className={Classnames.rightAlignedBold}>{options.anchors[0]}</div>
+                            <hr />
+                            <About />
+                        </div>
+                    </Section>
+                    <Section color="whitesmoke">
+                        <div className={Classnames.pageRootWhite}>
+                            <div className={Classnames.leftAlignedBold}>{options.anchors[1]}</div>
+                            <hr />
+                            <Experience />
+                        </div>
+                    </Section>
+                    <Section color="black">
+                        <div className={Classnames.pageRootBlack}>
+                            <div className={Classnames.rightAlignedBold}>{options.anchors[2]}</div>
+                            <hr />
+                            <Education />
+                        </div>
+                    </Section>
+                    <Section color="whitesmoke">
+                        <div className={Classnames.pageRootWhite}>
+                            <div className={Classnames.leftAlignedBold}>{options.anchors[3]}</div>
+                            <hr />
+                            <Training />
+                        </div>
+                    </Section>
+                    <Section color="black">
+                        <div className={Classnames.pageRootBlack}>
+                            <div className={Classnames.rightAlignedBold}>{options.anchors[4]}</div>
+                            <hr />
+                            <Education />
+                        </div>
+                    </Section>
+                    <Section color="whitesmoke">
+                        <div className={Classnames.pageRootWhite}>
+                            <div className={Classnames.leftAlignedBold}>{options.anchors[5]}</div>
+                            <hr />
+                            <Skills />
+                        </div>
+                    </Section>
+                    <Section color="black">
+                        <div className={Classnames.pageRootBlack}>
+                            <div className={Classnames.rightAlignedBold}>{options.anchors[6]}</div>
+                            <hr />
+                            <CertificationsAchievements />
+                        </div>
+                    </Section>
+                    <Section color="whitesmoke">
+                        <div className={Classnames.pageRootWhite}>
+                            <div className={Classnames.leftAlignedBold}>{options.anchors[7]}</div>
+                            <hr />
+                            Postions of Responsebility
+                        </div>
+                    </Section>
                 </SectionsContainer>
-
-                <div style={{ width: "100%", height: "100vh", backgroundColor: "whitesmoke" }}>
-                    <div style={{ padding: "20px", paddingTop: "140px", textAlign: "left" }}>
-                        <u>Projects</u>
-                    </div>
-                </div>
-                <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
-                    <div style={{ color: "white", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
-                        <u>Skills</u>
-                    </div>
-                </div>
-                <div style={{ width: "100%", height: "100vh", backgroundColor: "whitesmoke" }}>
-                    <div style={{ padding: "20px", paddingTop: "140px", textAlign: "left" }}>
-                        <u>Certifications & Achievements</u>
-                    </div>
-                </div>
+                
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
                     <div style={{ color: "white", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
                         <u>Postions of Responsebility</u>

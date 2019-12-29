@@ -1,13 +1,20 @@
 import React from 'react';
 
 const Education = () => (
-    <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
-        <div style={{color:"rgba(245, 245, 245, 0.8)", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
-            <div style={{ fontSize: "16px", textAlign: "right" }}><b>Education</b></div>
-            <hr/>
-            <div>
-                vudjdtyfug.kmtdfjhgjhvhc
-            </div>
+    <div style={{ fontWeight: "bold" }}>
+        <div>Bachelor of Technology (B. Tech) in
+                <span style={{ color: "white", fontWeight: "bold" }}> Information Technology.</span>
+            <div style={{ fontSize: "14px", fontWeight: "normal", textAlign: "right" }}>~2018</div>
+        </div>
+        <br />
+        <div>Higher Secondary
+                <span> ( Science )</span>
+            <div style={{ fontSize: "14px", fontWeight: "normal", textAlign: "right" }}>~2014</div>
+        </div>
+        <br />
+        <div>Secondary
+                <span> ( Science )</span>
+            <div style={{ fontSize: "14px", fontWeight: "normal", textAlign: "right" }}>~2012</div>
         </div>
     </div>
 );
