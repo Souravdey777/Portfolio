@@ -6,7 +6,7 @@ function Header() {
         <header className={Stylist.header}>
             <div className={Stylist.header_body}>
                 <div className={Stylist.logo_text}>
-                <b>SOURAV DEY</b>
+                <span style={{fontWeight:"bolder"}}>SOURAV DEY</span>
                 <p>Developer & Designer</p>
                 </div>
                 <img src={Profileimage} className={Stylist.Profileimage} alt="ProfileImage" />
