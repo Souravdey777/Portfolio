@@ -60,7 +60,7 @@ class HomePage extends React.Component {
                         <div className={Classnames.pageRootBlack}>
                             <div className={Classnames.rightAlignedBold}>{options.anchors[4]}</div>
                             <hr />
-                            <Education />
+                            Projects
                         </div>
                     </Section>
                     <Section color="whitesmoke">
