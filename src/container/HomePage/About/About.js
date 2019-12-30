@@ -11,9 +11,11 @@ const About = () => (
             <Souravdey />
             <br />
             <br />
-            Based on Bangalore. Currently working as
+            <div style={{ fontSize: window.innerHeight > 700 ? "1.8em" : "1.4em", fontWeight: "bold" }}>
+                Based on Bangalore. Currently working as
             <span style={{ color: "white", fontWeight: "bold" }}> Software Developer </span>
-            for Tata Consultancy Services.
+                for Tata Consultancy Services.
+            </div>
         </h3>
     </div>
 );

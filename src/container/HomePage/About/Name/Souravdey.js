@@ -8,7 +8,7 @@ function Souravdey() {
             <span
           class="txt-rotate"
           data-period="1000"
-          data-rotate='[ "coder.", "developer.", "designer.", "engineer.", "Amazing Person! ;P" ]'></span>
+          data-rotate='[ "coder.", "developer.", "designer.", "engineer." ]'></span>
     </div>
   );
 }
