@@ -1,6 +1,7 @@
 import React from 'react';
 import Stylist from './header.module.css';
 import Profileimage from '../../assets/images/profileImage.jpg';
+
 function Header() {
     return (
         <header className={Stylist.header}>

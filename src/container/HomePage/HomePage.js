@@ -30,14 +30,14 @@ class HomePage extends React.Component {
                 <SectionsContainer {...options}>
                     <Section color="black">
                         <div className={Classnames.pageRootBlack}>
-                            <div className={Classnames.rightAlignedBold}>{options.anchors[0]}</div>
                             <hr />
                             <About />
+                            <hr />
                         </div>
                     </Section>
                     <Section color="whitesmoke">
                         <div className={Classnames.pageRootWhite}>
-                            <div className={Classnames.leftAlignedBold}>{options.anchors[1]}</div>
+                            <h1 className={Classnames.leftAlignedBold}>{options.anchors[1]}</h1>
                             <hr />
                             <Experience />
                         </div>
