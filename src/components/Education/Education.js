@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => (
     <div style={{ fontWeight: "bold" }}>
-        <div>Bachelor of Technology (B. Tech) in
+        <div>Bachelor of Technology (B. Tech)
                 <span style={{ color: "white", fontWeight: "bold" }}> Information Technology.</span>
             <div style={{ fontSize: "14px", fontWeight: "normal", fontStyle:"italic", textAlign: "right" }}>~2018</div>
         </div>

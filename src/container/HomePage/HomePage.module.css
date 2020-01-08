@@ -19,8 +19,16 @@
     padding: 0px;
 }
 
+.leftAlignedBold{
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
 
 .rightAlignedBold{
     text-align: right;
     font-weight: bold;
+    margin: 0px;
+    padding: 0px;
 }

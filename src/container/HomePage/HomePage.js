@@ -1,20 +1,20 @@
 import React from 'react';
 import HFLayout from '../../Layout/WithHeaderFooterLayout/With_H_F_Layout';
-import About from './About/About';
-import Experience from './Experience/Experience';
-import Education from './Education/Education';
+import About from '../../components/About/About';
+import Experience from '../../components/Experience/Experience';
+import Education from '../../components/Education/Education';
 import { SectionsContainer, Section } from 'react-fullpage';
-import Training from './Training/Training';
-import Skills from './Skills/Skills';
+import Training from '../../components/Training/Training';
+import Skills from '../../components/Skills/Skills';
 import Classnames from './HomePage.module.css';
-import CertificationsAchievements from './Certifications_Achievements/Certifications_Achievements';
+import CertificationsAchievements from '../../components/Certifications_Achievements/Certifications_Achievements';
 
 class HomePage extends React.Component {
     render() {
         let options = {
             activeClass: 'active',
             anchors: ['About Me', 'Experience', 'Education', 'Trainings', 'Projects',
-             'Skills', 'Certifications & Achievements', 'Postions of Responsebility'],
+                'Skills', 'Certifications & Achievements', 'Postions of Responsebility'],
             arrowNavigation: true,
             className: 'SectionContainer',
             navigation: false,
@@ -44,7 +44,7 @@ class HomePage extends React.Component {
                     </Section>
                     <Section color="black">
                         <div className={Classnames.pageRootBlack}>
-                            <div className={Classnames.rightAlignedBold}>{options.anchors[2]}</div>
+                            <h1 className={Classnames.rightAlignedBold}>{options.anchors[2]}</h1>
                             <hr />
                             <Education />
                         </div>
@@ -85,7 +85,7 @@ class HomePage extends React.Component {
                         </div>
                     </Section>
                 </SectionsContainer>
-                
+
                 <div style={{ width: "100%", height: "100vh", backgroundColor: "black" }}>
                     <div style={{ color: "white", padding: "20px", paddingTop: "140px", textAlign: "left" }}>
                         <u>Postions of Responsebility</u>
