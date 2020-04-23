@@ -3,15 +3,14 @@ import './textTypewriterEffect';
 import Souravdey from './Name/Souravdey';
 
 const About = () => (
-    <div>
+    <div style={{ display: "flex", flexDirection: "row" }}>
         <h3>
-        <div style={{ fontSize: window.innerHeight > 700 ? "1.8em" : "1.4em"}}>
-            Hi <span style={{ color: "white", fontWeight: "bold" }}> Sourav </span> here,
+            <div style={{ fontSize: "1em" }}>
+                Hi <span style={{ color: "white", fontWeight: "bold" }}> Sourav </span> here,
             <br />
-            <br />
-            <Souravdey />
-            <br />
-            <br />
+                <br />
+                <Souravdey />
+                <br />
                 Based on Bangalore. Currently working as
             <span style={{ color: "white", fontWeight: "bold" }}> Software Developer </span>
                 for Tata Consultancy Services.

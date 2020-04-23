@@ -1,34 +1,37 @@
-.pageRootBlack{
-    color: rgba(245, 245, 245, 0.5);
-    padding: 20px;
-    padding-top: 130px;
-    text-align: left;
+.pageRootBlack {
+  height: 100vh;
+  color: rgba(245, 245, 245, 0.5);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.pageRootWhite{
-    color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    padding-top: 130px;
-    text-align: left;
+.pageRootWhite {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  padding-top: 130px;
+  text-align: left;
 }
 
-.leftAlignedBold{
-    text-align: left;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
+.leftAlignedBold {
+  text-align: left;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 }
 
-.leftAlignedBold{
-    text-align: left;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
+.leftAlignedBold {
+  text-align: left;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 }
 
-.rightAlignedBold{
-    text-align: right;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
+.rightAlignedBold {
+  text-align: right;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 }
