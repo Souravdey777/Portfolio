@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4e9bee4d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.11104107.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.11104107.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.b87905da.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5dea37bf.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5dea37bf.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/css/2.16aca965.chunk.css": "/Portfolio/static/css/2.16aca965.chunk.css",
-    "static/js/2.300d0999.chunk.js": "/Portfolio/static/js/2.300d0999.chunk.js",
-    "static/js/2.300d0999.chunk.js.map": "/Portfolio/static/js/2.300d0999.chunk.js.map",
+    "static/css/2.34c9b3d3.chunk.css": "/Portfolio/static/css/2.34c9b3d3.chunk.css",
+    "static/js/2.e9ac7c80.chunk.js": "/Portfolio/static/js/2.e9ac7c80.chunk.js",
+    "static/js/2.e9ac7c80.chunk.js.map": "/Portfolio/static/js/2.e9ac7c80.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.d463b0fa95ec6d225978514568dcaa1c.js": "/Portfolio/precache-manifest.d463b0fa95ec6d225978514568dcaa1c.js",
+    "precache-manifest.ff2868a04b09ecd2e8d30d359fc8c4fa.js": "/Portfolio/precache-manifest.ff2868a04b09ecd2e8d30d359fc8c4fa.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.16aca965.chunk.css.map": "/Portfolio/static/css/2.16aca965.chunk.css.map",
-    "static/css/main.4e9bee4d.chunk.css.map": "/Portfolio/static/css/main.4e9bee4d.chunk.css.map",
-    "static/media/profileImage.jpg": "/Portfolio/static/media/profileImage.d398f9e1.jpg"
+    "static/css/2.34c9b3d3.chunk.css.map": "/Portfolio/static/css/2.34c9b3d3.chunk.css.map",
+    "static/css/main.b87905da.chunk.css.map": "/Portfolio/static/css/main.b87905da.chunk.css.map",
+    "static/media/profileImage.jpg": "/Portfolio/static/media/profileImage.d398f9e1.jpg",
+    "static/media/uc.gif": "/Portfolio/static/media/uc.4bc2d788.gif"
   }
 }
