@@ -9,7 +9,7 @@ const HFLayout = props => (
             {props.children}
         </div>
         <div>
-            <img style={{ width: "100%" }} src={uc}></img>
+            <img alt="under construction" style={{ width: "100%" }} src={uc}></img>
         </div>
         {/* <Footer /> */}
     </div>

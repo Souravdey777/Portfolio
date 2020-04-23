@@ -1,17 +1,14 @@
 import React from 'react';
 import HFLayout from '../../Layout/WithHeaderFooterLayout/With_H_F_Layout';
 import About from '../../components/About/About';
-import Experience from '../../components/Experience/Experience';
-import Education from '../../components/Education/Education';
-import Training from '../../components/Training/Training';
-import Skills from '../../components/Skills/Skills';
+// import Experience from '../../components/Experience/Experience';
+// import Education from '../../components/Education/Education';
+// import Training from '../../components/Training/Training';
+// import Skills from '../../components/Skills/Skills';
 import Classnames from './HomePage.module.css';
 
 class HomePage extends React.Component {
     render() {
-        let anchors = ['About Me', 'Experience', 'Education', 'Trainings', 'Projects',
-            'Skills', 'Certifications & Achievements', 'Postions of Responsebility'];
-
         return (
             <HFLayout>
                 <div style={{ backgroundColor: "black", height: "100vh" }}>

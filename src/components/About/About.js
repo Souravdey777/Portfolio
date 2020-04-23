@@ -5,7 +5,7 @@ import Souravdey from './Name/Souravdey';
 const About = () => (
     <div style={{ display: "flex", flexDirection: "row" }}>
         <h3>
-            <div style={{ fontSize: "1em" }}>
+            <div style={{ fontSize: window.innerWidth > 768 ? "1.8em" : "1rem" }}>
                 Hi <span style={{ color: "white", fontWeight: "bold" }}> Sourav </span> here,
             <br />
                 <br />
