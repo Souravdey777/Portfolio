@@ -1,0 +1,7 @@
+.vtext{
+    color: var(--white);
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    transform: rotate(-90deg);
+}

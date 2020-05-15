@@ -1,5 +1,5 @@
 import React from 'react';
-import HFLayout from '../../Layout/WithHeaderFooterLayout/With_H_F_Layout';
+import HFLayout from '../../Layout/With_H_F_Layout';
 
 class ProjectsPage extends React.Component {
     render() {

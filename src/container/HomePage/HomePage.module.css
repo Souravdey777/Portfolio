@@ -1,18 +1,22 @@
-.pageRootBlack {
-  height: 100vh;
-  color: #bbbbbb;
-  padding: 20px;
+.pageRootBlack, .pageRootWhite {
+  min-height: 100vh;
+  padding-right: 50px;
+  padding-left: 100px;
   text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.pageRootBlack{  
+  color: var(--white);
+  font-weight: lighter;
+  background-color: var(--primary-color);
+}
+
 .pageRootWhite {
-  color: rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  padding-top: 130px;
-  text-align: left;
+  color: black;
+  background-color: whitesmoke;
 }
 
 .leftAlignedBold {
@@ -22,16 +26,10 @@
   padding: 0px;
 }
 
-.leftAlignedBold {
-  text-align: left;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
 
-.rightAlignedBold {
-  text-align: right;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
+@media only screen and (max-width: 425px) {
+  .pageRootBlack,.pageRootWhite{
+    padding: 20px;
+    padding-left: 50px;
+  }
 }

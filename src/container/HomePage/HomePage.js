@@ -1,29 +1,26 @@
 import React from 'react';
-import HFLayout from '../../Layout/WithHeaderFooterLayout/With_H_F_Layout';
+import HFLayout from '../../Layout/With_H_F_Layout';
 import About from '../../components/About/About';
-// import Experience from '../../components/Experience/Experience';
+import Experience from '../../components/Experience/Experience';
 // import Education from '../../components/Education/Education';
 // import Training from '../../components/Training/Training';
 // import Skills from '../../components/Skills/Skills';
 import Classnames from './HomePage.module.css';
+import PageTitle from '../../components/PageTitle/PageTitle';
 
 class HomePage extends React.Component {
     render() {
         return (
             <HFLayout>
-                <div style={{ backgroundColor: "black", height: "100vh" }}>
-                    <div className={Classnames.pageRootBlack}>
-                        <About />
-                    </div>
+                <PageTitle/>
+                <div>
+                <About />
+                
+                {/* <div className={Classnames.pageRootWhite}>
+                    <Experience />
+                </div> */}
                 </div>
-                {/* <div style={{ backgroundColor: "whitesmoke" }}>
-                    <div className={Classnames.pageRootWhite}>
-                        <h1 className={Classnames.leftAlignedBold}>{anchors[1]}</h1>
-                        <hr />
-                        <Experience />
-                    </div>
-                </div>
-                <div style={{ backgroundColor: "black" }}>
+                {/* <div style={{ backgroundColor: "black" }}>
                     <div className={Classnames.pageRootBlack}>
                         <h1 className={Classnames.rightAlignedBold}>{anchors[2]}</h1>
                         <hr />
@@ -76,7 +73,7 @@ class HomePage extends React.Component {
                         <u>Contact me</u>
                     </div>
                 </div> */}
-            </HFLayout>
+            </HFLayout >
         );
     }
 }
