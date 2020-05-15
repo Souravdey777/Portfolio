@@ -38,7 +38,7 @@ class About extends React.Component{
         </div>
         <div className={styles.pageRootBlack} ref={this.right}>
             {/* <div style={{backgroundColor:"#fab600", width:"100px",height:"100%"}}></div> */}
-            <div style={{ fontSize: "1em", borderTop:"2px solid #fab600", paddingLeft:"10px" }}>
+            <div style={{ fontSize: "1em", borderLeft:"2px solid #fab600", padding:"10px" }}>
                 Hi <span style={{ color: "#fab600", fontWeight: "bold" }}> Sourav </span> here,
             <br />
                 <br />
